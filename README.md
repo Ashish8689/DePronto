@@ -3,7 +3,13 @@
 ## Prerequisites
 
 -   Make sure that you have node install (Refer installation guide [here](https://nodejs.org/en/download/))
--   This project is build upon NextJS, React & Typescript, Please refer their official docs for more info
+-   This project is build upon React Please refer their official docs for more info
+
+## Preview
+ 
+ ```
+ https://cheery-chebakia-83415b.netlify.app/
+ ```
 
 ## Run this project locally
 
