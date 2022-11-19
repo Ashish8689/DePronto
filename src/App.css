@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ************** . Navbar *************** */
+
+.navbar-container {
+  height: 80px;
+  background: #1b7fbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container .nav-list a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px;
+  text-transform: capitalize;
+}
+
+.blog-container {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 30px;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid #008698;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  text-transform: capitalize;
+}
+
+.card-description {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-description .link {
+  color: #f96d15;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* ************* Blog Details Page **************** */
+
+.details-container {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  max-width: 90%;
+}
+
+.details-card h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.details-card p {
+  margin: 0 auto;
+  font-size: 20px;
+  max-width: 900px;
+  text-align: center;
+}
+
+.comments-header {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+/* ************* Comments card   ************ */
+
+.comments-container {
+  padding: 40px 0;
+}
+
+.comments-card {
+  border: 1px solid #008698;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: block;
+}
+
+.comments-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.comments-card h1 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.comments-card h2 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.comments-card h2 a {
+  text-transform: lowercase;
+  color: #1b7fbd;
+  text-decoration: none;
+}
+
+.comments-card p {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  font-weight: 400;
+}
+
+/* ************** Todos ******************/
+
+.container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.table-container{
+    margin: 50px 0;
+}
+
+table {
+  padding: 50px 0;
+  width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #008698;
+    padding: 10px;
+}
+
+
+
+
+/* ********** Filter container ************ */
+
+
+.filters{
+    display: flex;
+    align-items: center;
+}
+
+.filter-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+.filter-container label{
+      font-size: 18px;
+      font-weight: 600;
+      margin-right: 10px;
+}
